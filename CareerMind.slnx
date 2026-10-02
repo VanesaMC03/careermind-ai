@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/CareerMind.Core/CareerMind.Core.csproj" />
+    <Project Path="src/CareerMind.Web/CareerMind.Web.csproj" />
+  </Folder>
+  <Folder Name="/src/CareerMind.Functions/">
+    <Project Path="src/CareerMind.Functions/CareerMind_Functions.csproj" />
+  </Folder>
+</Solution>
