@@ -1,0 +1,80 @@
+[
+  {
+    "id": "C001",
+    "codigo": "AZ-900",
+    "nombre": "Microsoft Azure Fundamentals",
+    "emisor": "Microsoft",
+    "nivel": "Fundamentos",
+    "habilidadesRelacionadas": [
+      "H006"
+    ],
+    "vigenciaMeses": null,
+    "activa": true
+  },
+  {
+    "id": "C002",
+    "codigo": "AZ-204",
+    "nombre": "Developing Solutions for Microsoft Azure",
+    "emisor": "Microsoft",
+    "nivel": "Asociado",
+    "habilidadesRelacionadas": [
+      "H006",
+      "H001",
+      "H005"
+    ],
+    "vigenciaMeses": 12,
+    "activa": true
+  },
+  {
+    "id": "C003",
+    "codigo": "DP-900",
+    "nombre": "Microsoft Azure Data Fundamentals",
+    "emisor": "Microsoft",
+    "nivel": "Fundamentos",
+    "habilidadesRelacionadas": [
+      "H002",
+      "H006"
+    ],
+    "vigenciaMeses": null,
+    "activa": true
+  },
+  {
+    "id": "C004",
+    "codigo": "AI-900",
+    "nombre": "Microsoft Azure AI Fundamentals",
+    "emisor": "Microsoft",
+    "nivel": "Fundamentos",
+    "habilidadesRelacionadas": [
+      "H006",
+      "H010"
+    ],
+    "vigenciaMeses": null,
+    "activa": true
+  },
+  {
+    "id": "C005",
+    "codigo": "GH-900",
+    "nombre": "GitHub Foundations",
+    "emisor": "GitHub",
+    "nivel": "Fundamentos",
+    "habilidadesRelacionadas": [
+      "H007"
+    ],
+    "vigenciaMeses": null,
+    "activa": true
+  },
+  {
+    "id": "C006",
+    "codigo": "AZ-400",
+    "nombre": "Designing and Implementing Microsoft DevOps Solutions",
+    "emisor": "Microsoft",
+    "nivel": "Experto",
+    "habilidadesRelacionadas": [
+      "H006",
+      "H007",
+      "H008"
+    ],
+    "vigenciaMeses": 12,
+    "activa": true
+  }
+]

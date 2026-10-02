@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Entrevistas",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "candidatoId": {
+        "type": "string"
+      },
+      "vacanteId": {
+        "type": "string"
+      },
+      "fecha": {
+        "type": "string",
+        "format": "date"
+      },
+      "entrevistador": {
+        "type": "string"
+      },
+      "tipo": {
+        "type": "string"
+      },
+      "puntaje": {
+        "type": "number"
+      },
+      "resultado": {
+        "type": "string"
+      },
+      "comentarios": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "id",
+      "candidatoId",
+      "vacanteId",
+      "fecha",
+      "entrevistador",
+      "tipo",
+      "puntaje",
+      "resultado",
+      "comentarios"
+    ]
+  }
+}

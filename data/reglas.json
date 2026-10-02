@@ -1,0 +1,36 @@
+[
+  {
+    "id": "R01", "nombre": "BackendDeveloper",
+    "habilidades": [
+      { "habilidadId": "H001", "nivelMinimo": 3 },
+      { "habilidadId": "H005", "nivelMinimo": 3 },
+      { "habilidadId": "H002", "nivelMinimo": 2 }
+    ],
+    "requiere": []
+  },
+  {
+    "id": "R02", "nombre": "FrontendDeveloper",
+    "habilidades": [
+      { "habilidadId": "H009", "nivelMinimo": 3 },
+      { "habilidadId": "H003", "nivelMinimo": 3 }
+    ],
+    "requiere": []
+  },
+  {
+    "id": "R03", "nombre": "FullStackDeveloper",
+    "habilidades": [
+      { "habilidadId": "H003", "nivelMinimo": 3 },
+      { "habilidadId": "H004", "nivelMinimo": 3 }
+    ],
+    "requiere": ["BackendDeveloper"]
+  },
+  {
+    "id": "R04", "nombre": "DevOpsEngineer",
+    "habilidades": [
+      { "habilidadId": "H006", "nivelMinimo": 3 },
+      { "habilidadId": "H008", "nivelMinimo": 3 },
+      { "habilidadId": "H007", "nivelMinimo": 3 }
+    ],
+    "requiere": []
+  }
+]

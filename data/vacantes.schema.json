@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Vacante",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "titulo",
+      "area",
+      "nivel",
+      "modalidad",
+      "aniosExperienciaMinimos",
+      "habilidadesRequeridas",
+      "estatus",
+      "fechaPublicacion"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^VAC\\d{3}$"
+      },
+      "titulo": {
+        "type": "string",
+        "minLength": 3
+      },
+      "area": {
+        "enum": [
+          "Desarrollo",
+          "Infraestructura",
+          "Datos"
+        ]
+      },
+      "nivel": {
+        "enum": [
+          "Junior",
+          "Semi senior",
+          "Senior"
+        ]
+      },
+      "modalidad": {
+        "enum": [
+          "Presencial",
+          "Híbrido",
+          "Remoto"
+        ]
+      },
+      "ubicacion": {
+        "type": "string"
+      },
+      "aniosExperienciaMinimos": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 50
+      },
+      "nivelEstudiosMinimo": {
+        "enum": [
+          "Técnico superior",
+          "Licenciatura",
+          "Maestría",
+          "Doctorado"
+        ]
+      },
+      "habilidadesRequeridas": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "habilidadId",
+            "nivelMinimo",
+            "obligatoria"
+          ],
+          "properties": {
+            "habilidadId": {
+              "type": "string",
+              "pattern": "^H\\d{3}$"
+            },
+            "nivelMinimo": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            },
+            "obligatoria": {
+              "type": "boolean"
+            }
+          }
+        }
+      },
+      "certificacionesDeseables": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^C\\d{3}$"
+        },
+        "uniqueItems": true
+      },
+      "estatus": {
+        "enum": [
+          "Abierta",
+          "Cerrada",
+          "Pausada"
+        ]
+      },
+      "fechaPublicacion": {
+        "type": "string",
+        "format": "date"
+      }
+    }
+  }
+}

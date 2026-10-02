@@ -1,0 +1,190 @@
+[
+  {
+    "id": "VAC001",
+    "titulo": "Desarrollador Backend .NET",
+    "area": "Desarrollo",
+    "nivel": "Semi senior",
+    "modalidad": "Híbrido",
+    "ubicacion": "Ciudad de México",
+    "aniosExperienciaMinimos": 2,
+    "nivelEstudiosMinimo": "Licenciatura",
+    "habilidadesRequeridas": [
+      {
+        "habilidadId": "H001",
+        "nivelMinimo": 3,
+        "obligatoria": true
+      },
+      {
+        "habilidadId": "H005",
+        "nivelMinimo": 3,
+        "obligatoria": true
+      },
+      {
+        "habilidadId": "H002",
+        "nivelMinimo": 2,
+        "obligatoria": true
+      },
+      {
+        "habilidadId": "H007",
+        "nivelMinimo": 2,
+        "obligatoria": false
+      }
+    ],
+    "certificacionesDeseables": [
+      "C002"
+    ],
+    "estatus": "Abierta",
+    "fechaPublicacion": "2026-09-02"
+  },
+  {
+    "id": "VAC002",
+    "titulo": "Desarrollador Full Stack",
+    "area": "Desarrollo",
+    "nivel": "Semi senior",
+    "modalidad": "Remoto",
+    "ubicacion": "Remoto",
+    "aniosExperienciaMinimos": 3,
+    "nivelEstudiosMinimo": "Licenciatura",
+    "habilidadesRequeridas": [
+      {
+        "habilidadId": "H001",
+        "nivelMinimo": 3,
+        "obligatoria": true
+      },
+      {
+        "habilidadId": "H005",
+        "nivelMinimo": 3,
+        "obligatoria": true
+      },
+      {
+        "habilidadId": "H003",
+        "nivelMinimo": 3,
+        "obligatoria": true
+      },
+      {
+        "habilidadId": "H004",
+        "nivelMinimo": 3,
+        "obligatoria": true
+      },
+      {
+        "habilidadId": "H002",
+        "nivelMinimo": 2,
+        "obligatoria": false
+      }
+    ],
+    "certificacionesDeseables": [
+      "C002",
+      "C005"
+    ],
+    "estatus": "Abierta",
+    "fechaPublicacion": "2026-09-04"
+  },
+  {
+    "id": "VAC003",
+    "titulo": "Desarrollador Frontend",
+    "area": "Desarrollo",
+    "nivel": "Junior",
+    "modalidad": "Híbrido",
+    "ubicacion": "Ciudad de México",
+    "aniosExperienciaMinimos": 1,
+    "nivelEstudiosMinimo": "Técnico superior",
+    "habilidadesRequeridas": [
+      {
+        "habilidadId": "H009",
+        "nivelMinimo": 3,
+        "obligatoria": true
+      },
+      {
+        "habilidadId": "H003",
+        "nivelMinimo": 3,
+        "obligatoria": true
+      },
+      {
+        "habilidadId": "H004",
+        "nivelMinimo": 2,
+        "obligatoria": false
+      },
+      {
+        "habilidadId": "H007",
+        "nivelMinimo": 2,
+        "obligatoria": false
+      }
+    ],
+    "certificacionesDeseables": [
+      "C005"
+    ],
+    "estatus": "Abierta",
+    "fechaPublicacion": "2026-09-06"
+  },
+  {
+    "id": "VAC004",
+    "titulo": "Ingeniero DevOps",
+    "area": "Infraestructura",
+    "nivel": "Senior",
+    "modalidad": "Remoto",
+    "ubicacion": "Remoto",
+    "aniosExperienciaMinimos": 4,
+    "nivelEstudiosMinimo": "Licenciatura",
+    "habilidadesRequeridas": [
+      {
+        "habilidadId": "H006",
+        "nivelMinimo": 4,
+        "obligatoria": true
+      },
+      {
+        "habilidadId": "H008",
+        "nivelMinimo": 3,
+        "obligatoria": true
+      },
+      {
+        "habilidadId": "H007",
+        "nivelMinimo": 4,
+        "obligatoria": true
+      },
+      {
+        "habilidadId": "H010",
+        "nivelMinimo": 2,
+        "obligatoria": false
+      }
+    ],
+    "certificacionesDeseables": [
+      "C006",
+      "C001"
+    ],
+    "estatus": "Abierta",
+    "fechaPublicacion": "2026-09-09"
+  },
+  {
+    "id": "VAC005",
+    "titulo": "Analista de Datos Junior",
+    "area": "Datos",
+    "nivel": "Junior",
+    "modalidad": "Presencial",
+    "ubicacion": "Toluca, Estado de México",
+    "aniosExperienciaMinimos": 0,
+    "nivelEstudiosMinimo": "Licenciatura",
+    "habilidadesRequeridas": [
+      {
+        "habilidadId": "H002",
+        "nivelMinimo": 3,
+        "obligatoria": true
+      },
+      {
+        "habilidadId": "H010",
+        "nivelMinimo": 3,
+        "obligatoria": true
+      },
+      {
+        "habilidadId": "H007",
+        "nivelMinimo": 1,
+        "obligatoria": false
+      }
+    ],
+    "certificacionesDeseables": [
+      "C003",
+      "C004"
+    ],
+    "estatus": "Abierta",
+    "fechaPublicacion": "2026-09-11"
+  }
+]

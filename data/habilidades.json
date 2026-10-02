@@ -1,0 +1,72 @@
+[
+  {
+    "id": "H001",
+    "nombre": "CSharp",
+    "categoria": "Lenguaje",
+    "descripcion": "Lenguaje de programación orientado a objetos de la plataforma .NET",
+    "activa": true
+  },
+  {
+    "id": "H002",
+    "nombre": "SQL",
+    "categoria": "Datos",
+    "descripcion": "Lenguaje de consulta para datos estructurados",
+    "activa": true
+  },
+  {
+    "id": "H003",
+    "nombre": "JavaScript",
+    "categoria": "Lenguaje",
+    "descripcion": "Lenguaje de programación para la web",
+    "activa": true
+  },
+  {
+    "id": "H004",
+    "nombre": "React",
+    "categoria": "Framework",
+    "descripcion": "Biblioteca para construir interfaces de usuario",
+    "activa": true
+  },
+  {
+    "id": "H005",
+    "nombre": "AspNetCore",
+    "categoria": "Framework",
+    "descripcion": "Framework web de .NET para APIs y aplicaciones MVC",
+    "activa": true
+  },
+  {
+    "id": "H006",
+    "nombre": "Azure",
+    "categoria": "Nube",
+    "descripcion": "Servicios de nube de Microsoft",
+    "activa": true
+  },
+  {
+    "id": "H007",
+    "nombre": "Git",
+    "categoria": "Herramienta",
+    "descripcion": "Control de versiones distribuido",
+    "activa": true
+  },
+  {
+    "id": "H008",
+    "nombre": "Docker",
+    "categoria": "Herramienta",
+    "descripcion": "Contenedores para empaquetar y ejecutar aplicaciones",
+    "activa": true
+  },
+  {
+    "id": "H009",
+    "nombre": "HTML_CSS",
+    "categoria": "Frontend",
+    "descripcion": "Maquetación y estilos de páginas web",
+    "activa": true
+  },
+  {
+    "id": "H010",
+    "nombre": "Python",
+    "categoria": "Lenguaje",
+    "descripcion": "Lenguaje de propósito general usado en datos y automatización",
+    "activa": true
+  }
+]

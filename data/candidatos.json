@@ -1,0 +1,215 @@
+[
+  {
+    "id": "CAN001",
+    "nombre": "Juan Pérez Ramírez",
+    "correo": "juan.perez@example.com",
+    "telefono": "5512345601",
+    "ubicacion": "Ecatepec, Estado de México",
+    "nivelEstudios": "Licenciatura",
+    "aniosExperiencia": 3,
+    "habilidades": [
+      {
+        "habilidadId": "H001",
+        "nivel": 4
+      },
+      {
+        "habilidadId": "H005",
+        "nivel": 3
+      },
+      {
+        "habilidadId": "H002",
+        "nivel": 3
+      },
+      {
+        "habilidadId": "H006",
+        "nivel": 3
+      },
+      {
+        "habilidadId": "H007",
+        "nivel": 4
+      }
+    ],
+    "certificaciones": [
+      "C001",
+      "C002"
+    ],
+    "disponibilidad": "Inmediata",
+    "estatus": "Activo",
+    "fechaRegistro": "2026-09-01"
+  },
+  {
+    "id": "CAN002",
+    "nombre": "María Fernández López",
+    "correo": "maria.fernandez@example.com",
+    "telefono": "5512345602",
+    "ubicacion": "Ciudad de México",
+    "nivelEstudios": "Licenciatura",
+    "aniosExperiencia": 2,
+    "habilidades": [
+      {
+        "habilidadId": "H003",
+        "nivel": 4
+      },
+      {
+        "habilidadId": "H004",
+        "nivel": 4
+      },
+      {
+        "habilidadId": "H009",
+        "nivel": 5
+      },
+      {
+        "habilidadId": "H007",
+        "nivel": 3
+      }
+    ],
+    "certificaciones": [
+      "C005"
+    ],
+    "disponibilidad": "Dos semanas",
+    "estatus": "Activo",
+    "fechaRegistro": "2026-09-03"
+  },
+  {
+    "id": "CAN003",
+    "nombre": "Carlos Hernández Soto",
+    "correo": "carlos.hernandez@example.com",
+    "telefono": "5512345603",
+    "ubicacion": "Naucalpan, Estado de México",
+    "nivelEstudios": "Maestría",
+    "aniosExperiencia": 6,
+    "habilidades": [
+      {
+        "habilidadId": "H001",
+        "nivel": 5
+      },
+      {
+        "habilidadId": "H005",
+        "nivel": 4
+      },
+      {
+        "habilidadId": "H003",
+        "nivel": 3
+      },
+      {
+        "habilidadId": "H004",
+        "nivel": 3
+      },
+      {
+        "habilidadId": "H002",
+        "nivel": 4
+      },
+      {
+        "habilidadId": "H006",
+        "nivel": 4
+      },
+      {
+        "habilidadId": "H008",
+        "nivel": 3
+      },
+      {
+        "habilidadId": "H007",
+        "nivel": 5
+      }
+    ],
+    "certificaciones": [
+      "C001",
+      "C002",
+      "C003"
+    ],
+    "disponibilidad": "Un mes",
+    "estatus": "En proceso",
+    "fechaRegistro": "2026-09-05"
+  },
+  {
+    "id": "CAN004",
+    "nombre": "Ana Torres Guzmán",
+    "correo": "ana.torres@example.com",
+    "telefono": "5512345604",
+    "ubicacion": "Toluca, Estado de México",
+    "nivelEstudios": "Licenciatura",
+    "aniosExperiencia": 1,
+    "habilidades": [
+      {
+        "habilidadId": "H010",
+        "nivel": 4
+      },
+      {
+        "habilidadId": "H002",
+        "nivel": 4
+      },
+      {
+        "habilidadId": "H007",
+        "nivel": 2
+      }
+    ],
+    "certificaciones": [
+      "C003",
+      "C004"
+    ],
+    "disponibilidad": "Inmediata",
+    "estatus": "Activo",
+    "fechaRegistro": "2026-09-08"
+  },
+  {
+    "id": "CAN005",
+    "nombre": "Luis Ramírez Cruz",
+    "correo": "luis.ramirez@example.com",
+    "telefono": "5512345605",
+    "ubicacion": "Ciudad de México",
+    "nivelEstudios": "Licenciatura",
+    "aniosExperiencia": 4,
+    "habilidades": [
+      {
+        "habilidadId": "H006",
+        "nivel": 4
+      },
+      {
+        "habilidadId": "H008",
+        "nivel": 4
+      },
+      {
+        "habilidadId": "H007",
+        "nivel": 4
+      },
+      {
+        "habilidadId": "H010",
+        "nivel": 3
+      }
+    ],
+    "certificaciones": [
+      "C001",
+      "C006"
+    ],
+    "disponibilidad": "Dos semanas",
+    "estatus": "Activo",
+    "fechaRegistro": "2026-09-10"
+  },
+  {
+    "id": "CAN006",
+    "nombre": "Sofía Medina Ortiz",
+    "correo": "sofia.medina@example.com",
+    "telefono": "5512345606",
+    "ubicacion": "Ecatepec, Estado de México",
+    "nivelEstudios": "Técnico superior",
+    "aniosExperiencia": 0,
+    "habilidades": [
+      {
+        "habilidadId": "H009",
+        "nivel": 3
+      },
+      {
+        "habilidadId": "H003",
+        "nivel": 2
+      },
+      {
+        "habilidadId": "H007",
+        "nivel": 2
+      }
+    ],
+    "certificaciones": [],
+    "disponibilidad": "Inmediata",
+    "estatus": "Activo",
+    "fechaRegistro": "2026-09-12"
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "ENT001",
+    "candidatoId": "CAN001",
+    "vacanteId": "VAC001",
+    "fecha": "2026-09-15",
+    "entrevistador": "Reclutamiento TI",
+    "tipo": "Técnica",
+    "puntaje": 88,
+    "resultado": "Aprobado",
+    "comentarios": "Buen dominio de C# y ASP.NET Core."
+  },
+  {
+    "id": "ENT002",
+    "candidatoId": "CAN003",
+    "vacanteId": "VAC002",
+    "fecha": "2026-09-16",
+    "entrevistador": "Reclutamiento TI",
+    "tipo": "Técnica",
+    "puntaje": 92,
+    "resultado": "Aprobado",
+    "comentarios": "Experiencia sólida en frontend y backend."
+  },
+  {
+    "id": "ENT003",
+    "candidatoId": "CAN005",
+    "vacanteId": "VAC004",
+    "fecha": "2026-09-18",
+    "entrevistador": "Reclutamiento TI",
+    "tipo": "Recursos humanos",
+    "puntaje": 75,
+    "resultado": "Pendiente",
+    "comentarios": "Falta validar experiencia en canalizaciones CI/CD."
+  }
+]

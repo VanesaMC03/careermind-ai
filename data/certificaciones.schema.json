@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Certificacion",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "codigo",
+      "nombre",
+      "emisor",
+      "nivel",
+      "habilidadesRelacionadas",
+      "activa"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^C\\d{3}$"
+      },
+      "codigo": {
+        "type": "string",
+        "minLength": 1
+      },
+      "nombre": {
+        "type": "string",
+        "minLength": 1
+      },
+      "emisor": {
+        "type": "string"
+      },
+      "nivel": {
+        "enum": [
+          "Fundamentos",
+          "Asociado",
+          "Experto"
+        ]
+      },
+      "habilidadesRelacionadas": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^H\\d{3}$"
+        },
+        "uniqueItems": true
+      },
+      "vigenciaMeses": {
+        "type": [
+          "integer",
+          "null"
+        ],
+        "minimum": 1
+      },
+      "activa": {
+        "type": "boolean"
+      }
+    }
+  }
+}

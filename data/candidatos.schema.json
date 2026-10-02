@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Candidato",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "nombre",
+      "correo",
+      "aniosExperiencia",
+      "nivelEstudios",
+      "habilidades",
+      "certificaciones",
+      "estatus",
+      "fechaRegistro"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^CAN\\d{3}$"
+      },
+      "nombre": {
+        "type": "string",
+        "minLength": 3
+      },
+      "correo": {
+        "type": "string",
+        "format": "email"
+      },
+      "telefono": {
+        "type": "string",
+        "pattern": "^\\d{10}$"
+      },
+      "ubicacion": {
+        "type": "string"
+      },
+      "nivelEstudios": {
+        "enum": [
+          "Técnico superior",
+          "Licenciatura",
+          "Maestría",
+          "Doctorado"
+        ]
+      },
+      "aniosExperiencia": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 50
+      },
+      "habilidades": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "habilidadId",
+            "nivel"
+          ],
+          "properties": {
+            "habilidadId": {
+              "type": "string",
+              "pattern": "^H\\d{3}$"
+            },
+            "nivel": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            }
+          }
+        }
+      },
+      "certificaciones": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^C\\d{3}$"
+        },
+        "uniqueItems": true
+      },
+      "disponibilidad": {
+        "enum": [
+          "Inmediata",
+          "Dos semanas",
+          "Un mes"
+        ]
+      },
+      "estatus": {
+        "enum": [
+          "Activo",
+          "En proceso",
+          "Contratado",
+          "Descartado"
+        ]
+      },
+      "fechaRegistro": {
+        "type": "string",
+        "format": "date"
+      }
+    }
+  }
+}
